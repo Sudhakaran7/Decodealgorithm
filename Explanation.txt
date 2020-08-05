@@ -1,0 +1,50 @@
+you are given with a encoded string, you are given with a K where you have to find Kth character from the decoded string
+Decoding way,
+If the character read is a letter, that letter is written as same.
+If the character read is a digit (say 10), the entire current tape is repeatedly written 10-1 more times in total.
+
+Input description:
+String conataing character and digits
+
+Output Description:
+find Kth character from the decoded string
+
+Sample Input:
+guvi2world4 16
+
+Sample Output:
+v
+
+Explanation:
+the decoded string is, guviguviworldguviguviworldguviguviworldguviguviworld
+in this 16th charater is v
+
+Sample Input:
+hello4coder2 21
+
+Sample Output:
+c
+
+Sample Input:
+the4horse2 14
+
+Sample Output:
+o
+
+Sample Input:
+word12build21 144
+
+Sample Output:
+w
+
+Sample Input:
+cse45ece89 330
+
+Sample Output:
+e
+
+Sample Input:
+bat3ball5 5
+
+Sample Output:
+a
